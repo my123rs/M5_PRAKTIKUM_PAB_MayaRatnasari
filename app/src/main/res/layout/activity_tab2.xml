@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/fkom" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visi"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terwujudnya Fakultas  Ilmu Komputer  Universitas Kuningan sebagai  fakultas andal  yang  unggul  dalam  penyelenggaraaan  Tri  Darma  Perguruan  Tinggi  di Wilayah Jawa Barat pada tahun 2032"
+        android:textSize="12dp"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Misi"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/misi"
+        android:textSize="12dp"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tujuan"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tujuan"
+        android:textSize="12dp"
+        android:padding="10dp"/>
+</LinearLayout>

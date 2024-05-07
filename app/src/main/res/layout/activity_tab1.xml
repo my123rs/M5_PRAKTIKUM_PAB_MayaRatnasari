@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/kampus" />
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sejarah Singkat"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_below="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sejarah1"
+            android:textSize="12sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_below="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sejarah2"
+            android:textSize="12sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_below="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sejarah3"
+            android:textSize="12sp"
+            android:padding="10dp"/>
+</LinearLayout>
